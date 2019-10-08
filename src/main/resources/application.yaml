@@ -1,0 +1,6 @@
+server:
+    port: 54321
+student:
+    name: tom
+    age: 18
+    score: 100
