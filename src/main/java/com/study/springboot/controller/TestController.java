@@ -16,6 +16,11 @@ public class TestController {
         return student.getName()+":"+student.getAge()+":"+student.getScore();
     }
 
+    @GetMapping(value = "/get")
+    public String get(){
+        return "success";
+    }
+
 
 
 }
